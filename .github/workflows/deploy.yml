@@ -27,7 +27,7 @@ jobs:
         context: .
         file: ./docker/Dockerfile.user
         push: true
-        tags: ${{ secrets.DOCKERHUB_USERNAME }}/paymentapp:latest
+        tags: asifrtu/paymentapp:latest
 
     - name: Verify Pushed Image
-      run: docker pull ${{ secrets.DOCKERHUB_USERNAME }}/paymentapp:latest  # Replace with your Docker Hub username and repository
+      run: docker pull asifrtu/paymentapp:latest  # Replace with your Docker Hub username and repository
