@@ -4,6 +4,11 @@ function PierToPierTransfer() {
   return (
     <div>All Pier to Pier Transaction History
       <p>The Pier to Pier Transaction History</p>
+      <p>The Pier to Pier Transaction History</p>
+      <p>I have added some details for new update in ci</p>
+      <p>I have added some details for new update in ci</p>
+      <p>I have added some details for new update in ci</p>
+      <p>I have added some details for new update in ci</p>
 
 
     </div>
