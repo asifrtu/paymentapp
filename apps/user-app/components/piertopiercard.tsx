@@ -2,7 +2,11 @@ import React from 'react'
 
 function PierToPierTransfer() {
   return (
-    <div>All Pier to Pier Transaction History</div>
+    <div>All Pier to Pier Transaction History
+      <p>The Pier to Pier Transaction History</p>
+
+
+    </div>
   )
 }
 
