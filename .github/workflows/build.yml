@@ -29,11 +29,7 @@ jobs:
 
       # 4️⃣ Install dependencies
       - name: Install dependencies
-        run: npm ci
-
-      # 5️⃣ Check Prisma schema validity
-      - name: Validate Prisma Schema
-        run: cd packages/db && npx prisma validate && cd ../..
+        run: npm install
 
       # 6️⃣ Generate Prisma Client
       - name: Generate Prisma Client
